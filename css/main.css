@@ -933,6 +933,10 @@
           background-color: #fff;
           top: -110px;
           left: -19px; }
+          .footer .share li a .tc img {
+            display: block;
+            width: 100px;
+            height: 100px; }
         .footer .share li a .tc_tel {
           width: 200px;
           height: 50px;
@@ -1454,18 +1458,7 @@
       color: #666666;
       font-style: italic; }
 
-.de1 .center .pb {
-  font-size: 18px;
-  font-weight: bold;
-  color: #666666;
-  line-height: 30px;
-  padding-bottom: 30px;
-  padding-top: 30px; }
-
 .de1 .center .p {
-  font-size: 16px;
-  color: #666666;
-  line-height: 30px;
   padding-bottom: 30px; }
 
 .de1 .center .m_box {
@@ -1600,6 +1593,7 @@
   padding-bottom: 30px; }
   .de1 .center .vi_box li {
     width: 535px;
+    height: 430px;
     overflow: hidden;
     padding-bottom: 30px;
     margin-right: 31px;
@@ -1609,6 +1603,7 @@
     border-radius: 5px;
     position: relative; }
     .de1 .center .vi_box li .vi_title {
+      display: block;
       font-size: 30px;
       line-height: 60px;
       margin-top: 30px;
@@ -1672,6 +1667,11 @@
       color: #333333;
       margin-top: 10px;
       line-height: 30px; }
+      .de1 .center .fb li .fb_sub a {
+        font-size: 14px;
+        color: #333333; }
+        .de1 .center .fb li .fb_sub a:hover {
+          color: #2b60a5; }
 
 .de1 .center .mess_group {
   margin-top: 60px;

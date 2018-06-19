@@ -1122,6 +1122,11 @@ $tran: all 0.3s;
 					background-color: #fff;
 					top: -110px;
 					left: -19px;
+					img {
+						display: block;
+						width: 100px;
+						height: 100px;
+					}
 				}
 				.tc_tel {
 					width: 200px;
@@ -1752,19 +1757,7 @@ $tran: all 0.3s;
 				}
 			}
 		}
-
-		.pb {
-			font-size: 18px;
-			font-weight: bold;
-			color: #666666;
-			line-height: 30px;
-			padding-bottom: 30px;
-			padding-top: 30px;
-		}
 		.p {
-			font-size: 16px;
-			color: #666666;
-			line-height: 30px;
 			padding-bottom: 30px;
 		}
 
@@ -1918,6 +1911,7 @@ $tran: all 0.3s;
 			padding-bottom: 30px;
 			li {
 				width: 535px;
+				height: 430px;
 				overflow: hidden;
 				padding-bottom: 30px;
 				margin-right: 31px;
@@ -1927,6 +1921,7 @@ $tran: all 0.3s;
 				border-radius: 5px;
 				position: relative;
 				.vi_title {
+					display: block;
 					font-size: 30px;
 					line-height: 60px;
 					margin-top: 30px;
@@ -2006,6 +2001,13 @@ $tran: all 0.3s;
 					color: #333333;
 					margin-top: 10px;
 					line-height: 30px;
+					a {
+						font-size: 14px;
+						color: #333333;
+						&:hover {
+							color: #2b60a5;
+						}
+					}
 				}
 			}
 		}

@@ -16,3 +16,10 @@ $('.fir_item').hover(function() {
 function gotop(){
 	$("html,body").animate({scrollTop:0}, 500);
 }
+
+
+$('.share').find('li').hover(function() {
+	$(this).find('span').css('color', $(this).find('span').attr('data-color'));
+}, function() {
+	$(this).find('span').css('color', '#949494');
+});
